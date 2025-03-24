@@ -1,0 +1,67 @@
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\Final app.exe.config
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\Final app.exe
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\Final app.pdb
+E:\ProjectLearnTool\SecondTry\Final app\obj\Debug\Final app.csproj.AssemblyReference.cache
+E:\ProjectLearnTool\SecondTry\Final app\obj\Debug\Final_app.Form1.resources
+E:\ProjectLearnTool\SecondTry\Final app\obj\Debug\Final_app.Properties.Resources.resources
+E:\ProjectLearnTool\SecondTry\Final app\obj\Debug\Final app.csproj.GenerateResource.cache
+E:\ProjectLearnTool\SecondTry\Final app\obj\Debug\Final app.csproj.CoreCompileInputs.cache
+E:\ProjectLearnTool\SecondTry\Final app\obj\Debug\Final app.exe
+E:\ProjectLearnTool\SecondTry\Final app\obj\Debug\Final app.pdb
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\x86\leptonica-1.82.0.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\x86\tesseract50.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\x64\leptonica-1.82.0.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\x64\tesseract50.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\Gma.System.MouseKeyHook.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\HtmlAgilityPack.CssSelectors.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\HtmlAgilityPack.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\Newtonsoft.Json.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NHotkey.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NHotkey.WindowsForms.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\System.Drawing.Common.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\Tesseract.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\HtmlAgilityPack.xml
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\HtmlAgilityPack.CssSelectors.pdb
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\Newtonsoft.Json.xml
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NHotkey.pdb
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NHotkey.WindowsForms.pdb
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\System.Drawing.Common.pdb
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\System.Drawing.Common.xml
+E:\ProjectLearnTool\SecondTry\Final app\obj\Debug\Final app.csproj.CopyComplete
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\Microsoft.Win32.Registry.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NAudio.Asio.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NAudio.Core.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NAudio.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NAudio.Midi.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NAudio.Wasapi.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NAudio.WinForms.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NAudio.WinMM.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\System.Security.AccessControl.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\System.Security.Principal.Windows.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\Microsoft.Win32.Registry.xml
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NAudio.xml
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NAudio.Asio.xml
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NAudio.Core.xml
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NAudio.Midi.xml
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NAudio.Wasapi.xml
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NAudio.WinForms.xml
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NAudio.WinMM.xml
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\System.Security.AccessControl.xml
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\System.Security.Principal.Windows.xml
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NAudio.Vorbis.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NVorbis.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\System.Buffers.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\System.Memory.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\System.Numerics.Vectors.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\System.ValueTuple.dll
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\NVorbis.xml
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\System.Buffers.xml
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\System.Memory.xml
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\System.Numerics.Vectors.xml
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\System.ValueTuple.xml
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\Final app.exe.manifest
+E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\Final app.application
+E:\ProjectLearnTool\SecondTry\Final app\obj\Debug\Final app.exe.manifest
+E:\ProjectLearnTool\SecondTry\Final app\obj\Debug\Final app.application
