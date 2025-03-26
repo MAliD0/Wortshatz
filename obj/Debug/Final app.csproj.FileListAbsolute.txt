@@ -65,3 +65,70 @@ E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\Final app.exe.manifest
 E:\ProjectLearnTool\SecondTry\Final app\bin\Debug\Final app.application
 E:\ProjectLearnTool\SecondTry\Final app\obj\Debug\Final app.exe.manifest
 E:\ProjectLearnTool\SecondTry\Final app\obj\Debug\Final app.application
+E:\Projects\Wortshatz\bin\Debug\x86\leptonica-1.82.0.dll
+E:\Projects\Wortshatz\bin\Debug\x86\tesseract50.dll
+E:\Projects\Wortshatz\bin\Debug\x64\leptonica-1.82.0.dll
+E:\Projects\Wortshatz\bin\Debug\x64\tesseract50.dll
+E:\Projects\Wortshatz\bin\Debug\Final app.exe.config
+E:\Projects\Wortshatz\bin\Debug\Final app.exe.manifest
+E:\Projects\Wortshatz\bin\Debug\Final app.application
+E:\Projects\Wortshatz\bin\Debug\Final app.exe
+E:\Projects\Wortshatz\bin\Debug\Final app.pdb
+E:\Projects\Wortshatz\bin\Debug\Gma.System.MouseKeyHook.dll
+E:\Projects\Wortshatz\bin\Debug\HtmlAgilityPack.CssSelectors.dll
+E:\Projects\Wortshatz\bin\Debug\HtmlAgilityPack.dll
+E:\Projects\Wortshatz\bin\Debug\Microsoft.Win32.Registry.dll
+E:\Projects\Wortshatz\bin\Debug\NAudio.Asio.dll
+E:\Projects\Wortshatz\bin\Debug\NAudio.Core.dll
+E:\Projects\Wortshatz\bin\Debug\NAudio.dll
+E:\Projects\Wortshatz\bin\Debug\NAudio.Midi.dll
+E:\Projects\Wortshatz\bin\Debug\NAudio.Vorbis.dll
+E:\Projects\Wortshatz\bin\Debug\NAudio.Wasapi.dll
+E:\Projects\Wortshatz\bin\Debug\NAudio.WinForms.dll
+E:\Projects\Wortshatz\bin\Debug\NAudio.WinMM.dll
+E:\Projects\Wortshatz\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\Wortshatz\bin\Debug\NHotkey.dll
+E:\Projects\Wortshatz\bin\Debug\NHotkey.WindowsForms.dll
+E:\Projects\Wortshatz\bin\Debug\NVorbis.dll
+E:\Projects\Wortshatz\bin\Debug\System.Buffers.dll
+E:\Projects\Wortshatz\bin\Debug\System.Drawing.Common.dll
+E:\Projects\Wortshatz\bin\Debug\System.Memory.dll
+E:\Projects\Wortshatz\bin\Debug\System.Numerics.Vectors.dll
+E:\Projects\Wortshatz\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Projects\Wortshatz\bin\Debug\System.Security.AccessControl.dll
+E:\Projects\Wortshatz\bin\Debug\System.Security.Principal.Windows.dll
+E:\Projects\Wortshatz\bin\Debug\System.ValueTuple.dll
+E:\Projects\Wortshatz\bin\Debug\Tesseract.dll
+E:\Projects\Wortshatz\bin\Debug\HtmlAgilityPack.xml
+E:\Projects\Wortshatz\bin\Debug\HtmlAgilityPack.CssSelectors.pdb
+E:\Projects\Wortshatz\bin\Debug\Microsoft.Win32.Registry.xml
+E:\Projects\Wortshatz\bin\Debug\NAudio.xml
+E:\Projects\Wortshatz\bin\Debug\NAudio.Asio.xml
+E:\Projects\Wortshatz\bin\Debug\NAudio.Core.xml
+E:\Projects\Wortshatz\bin\Debug\NAudio.Midi.xml
+E:\Projects\Wortshatz\bin\Debug\NAudio.Wasapi.xml
+E:\Projects\Wortshatz\bin\Debug\NAudio.WinForms.xml
+E:\Projects\Wortshatz\bin\Debug\NAudio.WinMM.xml
+E:\Projects\Wortshatz\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\Wortshatz\bin\Debug\NHotkey.pdb
+E:\Projects\Wortshatz\bin\Debug\NHotkey.WindowsForms.pdb
+E:\Projects\Wortshatz\bin\Debug\NVorbis.xml
+E:\Projects\Wortshatz\bin\Debug\System.Buffers.xml
+E:\Projects\Wortshatz\bin\Debug\System.Drawing.Common.pdb
+E:\Projects\Wortshatz\bin\Debug\System.Drawing.Common.xml
+E:\Projects\Wortshatz\bin\Debug\System.Memory.xml
+E:\Projects\Wortshatz\bin\Debug\System.Numerics.Vectors.xml
+E:\Projects\Wortshatz\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Projects\Wortshatz\bin\Debug\System.Security.AccessControl.xml
+E:\Projects\Wortshatz\bin\Debug\System.Security.Principal.Windows.xml
+E:\Projects\Wortshatz\bin\Debug\System.ValueTuple.xml
+E:\Projects\Wortshatz\obj\Debug\Final app.csproj.AssemblyReference.cache
+E:\Projects\Wortshatz\obj\Debug\Final_app.Form1.resources
+E:\Projects\Wortshatz\obj\Debug\Final_app.Properties.Resources.resources
+E:\Projects\Wortshatz\obj\Debug\Final app.csproj.GenerateResource.cache
+E:\Projects\Wortshatz\obj\Debug\Final app.csproj.CoreCompileInputs.cache
+E:\Projects\Wortshatz\obj\Debug\Final app.exe.manifest
+E:\Projects\Wortshatz\obj\Debug\Final app.application
+E:\Projects\Wortshatz\obj\Debug\Final app.csproj.CopyComplete
+E:\Projects\Wortshatz\obj\Debug\Final app.exe
+E:\Projects\Wortshatz\obj\Debug\Final app.pdb

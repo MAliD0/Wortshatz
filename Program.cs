@@ -124,6 +124,7 @@ namespace Final_app
             if (word.Split(' ').Length > 1)
             {
                 Console.WriteLine("It is sentence, functionality for this in dev");
+                //await saveSystem.WriteIntoFileUnique(word);
             }
             else
             {
