@@ -23,6 +23,7 @@ namespace Final_app
         public static IKeyboardMouseEvents _globalHook;
         static DictionaryManager dictionaryManager;
         static SoundManager soundManager;
+        static KeyboardWriteRecorder keyboardWriteRecorder;
 
         [STAThread]
         static void Main()
@@ -35,6 +36,8 @@ namespace Final_app
 
             soundManager = new SoundManager(AppDomain.CurrentDomain.BaseDirectory);
 
+            keyboardWriteRecorder = new KeyboardWriteRecorder();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
@@ -44,6 +47,12 @@ namespace Final_app
             saveSystem.onRequireListSelect += CallListSelect;
             saveSystem.onRequireListSelect += () => { soundManager.PlaySound(SoundTypes.error); };
             saveSystem.onWordAddedToList += () => { soundManager.PlaySound(SoundTypes.confirmation); };
+
+            keyboardWriteRecorder.onRecordingStarted += () => { soundManager.PlaySound(SoundTypes.record); };
+            keyboardWriteRecorder.onRecordingStopped += (x) =>
+            {
+                saveSystem.WriteIntoFileUnique(x);
+            };
 
             Application.Run(form);
         }
@@ -85,7 +94,34 @@ namespace Final_app
 
         private static void OnShortcutPressed(object sender, KeyEventArgs e)
         {
-            if (!(e.Control && e.Alt && e.KeyCode == Keys.Z)) return;
+            if ((e.Control && e.Alt && e.KeyCode == Keys.Z))
+            {
+                OnSaveShortcutPressed();
+                e.Handled = true;
+                return;
+            }
+
+            if (e.KeyCode == Keys.F2)
+            {
+                keyboardWriteRecorder.StartRecording();
+                e.Handled = true;
+                return;
+            }
+            if(e.KeyCode == Keys.F3)
+            {
+                keyboardWriteRecorder.StopRecording();
+                e.Handled = true;
+                return;
+            }
+            keyboardWriteRecorder.RecordKeyInput(e);
+
+            // Mark event handled
+            e.Handled = false;
+            e.SuppressKeyPress = false;
+        }
+
+        private static void OnSaveShortcutPressed()
+        {
 
             // Handle clipboard data
             if (Clipboard.ContainsText())
@@ -111,10 +147,8 @@ namespace Final_app
             {
                 Console.WriteLine("Clipboard doesn't contain text or image.");
             }
-
-            // Mark event handled
-            e.Handled = true;
         }
+
         private static async void OnWordFoundAsync(string word)
         {
             Console.WriteLine(word);

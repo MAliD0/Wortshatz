@@ -34,5 +34,6 @@ namespace Final_app
     {
         confirmation,
         error,
+        record,  
     }
 }
