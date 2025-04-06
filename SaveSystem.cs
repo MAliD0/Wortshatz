@@ -122,6 +122,7 @@ namespace Final_app
                 }
                 else
                 {
+
                     sw.WriteLine(data);
                     onWordAddedToList?.Invoke();
                 }

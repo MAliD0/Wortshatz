@@ -45,7 +45,7 @@ namespace Final_app
             {
                 if (key.KeyCode == Keys.Back)
                 {
-                    sb.Length--;
+                    currentPrompt.Length--;
                 }
             }
         }

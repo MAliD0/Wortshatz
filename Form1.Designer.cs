@@ -275,7 +275,7 @@
             this.CardGeneratorBox.Controls.Add(this.CardsGenerateButton);
             this.CardGeneratorBox.Controls.Add(this.GenerateDeckListBox);
             this.CardGeneratorBox.Controls.Add(this.label4);
-            this.CardGeneratorBox.Location = new System.Drawing.Point(198, 20);
+            this.CardGeneratorBox.Location = new System.Drawing.Point(0, 0);
             this.CardGeneratorBox.Name = "CardGeneratorBox";
             this.CardGeneratorBox.Size = new System.Drawing.Size(242, 317);
             this.CardGeneratorBox.TabIndex = 4;
@@ -361,10 +361,12 @@
             // 
             // WordToSave
             // 
+            this.WordToSave.AcceptsTab = true;
             this.WordToSave.Location = new System.Drawing.Point(22, 100);
             this.WordToSave.Name = "WordToSave";
             this.WordToSave.Size = new System.Drawing.Size(139, 20);
             this.WordToSave.TabIndex = 1;
+            this.WordToSave.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.WordToSave_KeyPress);
             // 
             // label6
             // 
@@ -378,6 +380,7 @@
             // 
             // ListCreateMenu
             // 
+            this.ListCreateMenu.Controls.Add(this.CardGeneratorBox);
             this.ListCreateMenu.Controls.Add(this.CreateListSubmit);
             this.ListCreateMenu.Controls.Add(this.listNameBox);
             this.ListCreateMenu.Controls.Add(this.label2);
@@ -419,8 +422,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(494, 411);
-            this.Controls.Add(this.CardGeneratorBox);
+            this.ClientSize = new System.Drawing.Size(457, 411);
             this.Controls.Add(this.SaveWordBox);
             this.Controls.Add(this.ListCreateMenu);
             this.Controls.Add(this.AboutBox);

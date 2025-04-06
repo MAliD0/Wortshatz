@@ -74,9 +74,14 @@ namespace Final_app
             {
                 Console.WriteLine(words[i]);
                 informationDataBlock informationDataBlock = DictionaryManager.FindWordInDictionary(words[i]).Result;
-                //todo: Добавить проверку на существование слова
+
                 if (informationDataBlock.isInfoFinished == false)
                 {
+                    if (informationDataBlock.word.Split(' ').Length > 1)
+                    {
+                        
+                    }
+
                     if (!isFailListCreated && !saveSystem.GetAllDictionarys().Contains(failedList + ".txt"))
                     {
                         saveSystem.CreateNewList(failedList);
@@ -155,9 +160,13 @@ namespace Final_app
             word = RemoveSpecialCharacters(word.Trim().ToLower());
             Console.WriteLine(word);
 
+            Console.WriteLine("Copied word: " + word);
+
             if (word.Split(' ').Length > 1)
             {
                 Console.WriteLine("It is sentence, functionality for this in dev");
+                await saveSystem.WriteIntoFile(word);
+
                 //await saveSystem.WriteIntoFileUnique(word);
             }
             else

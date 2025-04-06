@@ -10,6 +10,7 @@ namespace Final_app
         public static Form1 instance;
         public static TaskCompletionSource<string> onListSelected;
         public Action<string, string> onCardGenerateCall;
+        public Action<string> onWordSaveCall;
         WindowsManager windowsManager;
         //public static AIAutoSpeaker aIAutoSpeaker;
 
@@ -29,7 +30,10 @@ namespace Final_app
                     listsBox.Items.Add(item);
                 }
             };
-
+            onWordSaveCall += (x) => {
+                Program.saveSystem.WriteIntoFileUnique(WordToSave.Text);
+                WordToSave.Clear(); 
+            };
             //aIAutoSpeaker = new AIAutoSpeaker(@"./chromedriver");
         }
 
@@ -107,12 +111,20 @@ namespace Final_app
         }
         private void buttonSaveWord_Click(object sender, EventArgs e)
         {
-            Program.saveSystem.WriteIntoFileUnique(WordToSave.Text);
+            onWordSaveCall?.Invoke(WordToSave.Text);
         }
 
         private void AboutButton_Click(object sender, EventArgs e)
         {
             windowsManager.ShowWindow(AboutBox);
+        }
+
+        private void WordToSave_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(e.KeyChar == (char)13)
+            {
+                onWordSaveCall?.Invoke(WordToSave.Text);
+            }
         }
     }
 }
