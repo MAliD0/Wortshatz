@@ -199,7 +199,7 @@
             // 
             this.AboutBox.Controls.Add(this.flowLayoutPanel1);
             this.AboutBox.Controls.Add(this.label7);
-            this.AboutBox.Location = new System.Drawing.Point(198, 20);
+            this.AboutBox.Location = new System.Drawing.Point(197, 22);
             this.AboutBox.Name = "AboutBox";
             this.AboutBox.Size = new System.Drawing.Size(248, 317);
             this.AboutBox.TabIndex = 3;
@@ -275,7 +275,7 @@
             this.CardGeneratorBox.Controls.Add(this.CardsGenerateButton);
             this.CardGeneratorBox.Controls.Add(this.GenerateDeckListBox);
             this.CardGeneratorBox.Controls.Add(this.label4);
-            this.CardGeneratorBox.Location = new System.Drawing.Point(0, 0);
+            this.CardGeneratorBox.Location = new System.Drawing.Point(192, 16);
             this.CardGeneratorBox.Name = "CardGeneratorBox";
             this.CardGeneratorBox.Size = new System.Drawing.Size(242, 317);
             this.CardGeneratorBox.TabIndex = 4;
@@ -342,7 +342,7 @@
             this.SaveWordBox.Controls.Add(this.buttonSaveWord);
             this.SaveWordBox.Controls.Add(this.WordToSave);
             this.SaveWordBox.Controls.Add(this.label6);
-            this.SaveWordBox.Location = new System.Drawing.Point(201, 25);
+            this.SaveWordBox.Location = new System.Drawing.Point(196, 24);
             this.SaveWordBox.Name = "SaveWordBox";
             this.SaveWordBox.Size = new System.Drawing.Size(242, 317);
             this.SaveWordBox.TabIndex = 5;
@@ -380,11 +380,10 @@
             // 
             // ListCreateMenu
             // 
-            this.ListCreateMenu.Controls.Add(this.CardGeneratorBox);
             this.ListCreateMenu.Controls.Add(this.CreateListSubmit);
             this.ListCreateMenu.Controls.Add(this.listNameBox);
             this.ListCreateMenu.Controls.Add(this.label2);
-            this.ListCreateMenu.Location = new System.Drawing.Point(198, 28);
+            this.ListCreateMenu.Location = new System.Drawing.Point(203, 28);
             this.ListCreateMenu.Name = "ListCreateMenu";
             this.ListCreateMenu.Size = new System.Drawing.Size(242, 317);
             this.ListCreateMenu.TabIndex = 6;
@@ -422,11 +421,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(457, 411);
+            this.ClientSize = new System.Drawing.Size(505, 401);
+            this.Controls.Add(this.CardGeneratorBox);
             this.Controls.Add(this.SaveWordBox);
+            this.Controls.Add(this.ListSelectionMenu);
             this.Controls.Add(this.ListCreateMenu);
             this.Controls.Add(this.AboutBox);
-            this.Controls.Add(this.ListSelectionMenu);
             this.Controls.Add(this.OptionsGroupBox);
             this.Name = "Form1";
             this.Text = "DeuCards";
