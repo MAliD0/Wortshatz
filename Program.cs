@@ -77,10 +77,10 @@ namespace Final_app
 
                 if (informationDataBlock.isInfoFinished == false)
                 {
-                    if (informationDataBlock.word.Split(' ').Length > 1)
+                    /*if (informationDataBlock.word.Split(' ').Length > 1)
                     {
                         
-                    }
+                    }*/
 
                     if (!isFailListCreated && !saveSystem.GetAllDictionarys().Contains(failedList + ".txt"))
                     {
